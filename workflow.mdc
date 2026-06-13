@@ -1,0 +1,27 @@
+---
+description: Session workflow — plan, scope, verify, commit
+alwaysApply: true
+---
+
+# Workflow
+
+## Before edits
+
+- Propose a **three-bullet plan** and wait for my **OK** before making changes (Ask mode for planning; Agent mode for edits).
+- If the task touches **more than two files**, propose a **step list** and do one step per turn unless I say otherwise.
+
+## While editing
+
+- **One logical change per turn** — one file or one behavior; no drive-by refactors.
+- **Minimize scope** — smallest correct diff; match existing naming, types, and patterns in this repo.
+- **Comments** only for non-obvious logic; **tests** only when asked or when they add meaningful coverage.
+
+## After edits
+
+- Tell me **exactly what to run** to verify and **what I should see** if it worked.
+- **Do not commit** unless I ask. When I ask, follow the repo's commit message style.
+
+## Communication
+
+- Explain specialized terms the first time they appear in a session.
+- Use code citation blocks (`startLine:endLine:filepath`) when pointing at existing code.
